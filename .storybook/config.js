@@ -1,6 +1,4 @@
 import { configure } from '@storybook/vue';
-import { action } from '@storybook/addon-actions';
-import '@storybook/addon-console';
 
 import Vue from 'vue';
 
