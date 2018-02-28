@@ -4,7 +4,7 @@ import { specs, describe, it } from 'storybook-addon-specifications'
 import { storiesOf } from '@storybook/vue';
 
 import SnInput from '../components/sn-input.vue';
-import { mount } from '@vue/test-utils'
+// import { mount } from '@vue/test-utils'
 
 storiesOf('Serial Number Input', module)
     .add('with placeholder', () => {
