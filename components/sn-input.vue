@@ -28,12 +28,13 @@
         return str.replace(/ +$/g, "")
       },
     },
-    mounted() {
+    created() {
       this.value = this.format(this.initial || '')
     },
     watch: {
       value: function(newValue) {
         this.value = this.format(newValue)
+        this.$emit('input', this.value)
       }
     }
   }
