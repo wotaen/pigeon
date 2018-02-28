@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Serial Number Input with default value 1`] = `
+<input
+  type="text"
+/>
+`;
+
+exports[`Storyshots Serial Number Input with placeholder 1`] = `
+<input
+  placeholder="Serial Number"
+  type="text"
+/>
+`;
